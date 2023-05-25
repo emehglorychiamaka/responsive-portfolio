@@ -4,8 +4,8 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <meta name="description" content="Home page of Emeh Glory Chiamaka's SheCodes projects" />
-    <title>Home Page</title>
+    <meta name="description" content="" />
+    <title>Document</title>
 
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
@@ -29,12 +29,39 @@
     ></script>
   </head>
   <body>
+    <div class="container">
+      <nav class="d-flex justify-content-between">
+        <img
+          src="images/chiamaka-logo.PNG"
+          class="logo d-block d-md-none"
+          alt="logo"
+        />
+        <!-- shows small logo when using small screen device-->
+        <img
+          src="images/chiamaka.jpg"
+          class="logo d-none d-md-block"
+          alt="logo"
+        />
+        <!--shows large logo when using a big screen device-->
+
+        <ul>
+          <li class="active"><a href="index.html">Home</a></li>
+          <li><a href="about.html">About</a></li>
+          <li><a href="myWork.html">Work</a></li>
+          <li><a href="contact.html">Contact</a></li>
+          <li></li>
+        </ul>
+      </nav>
+    </div>
+
     <div class="hero">
-      <p>Hello, I'm</p>
+      <p>Hello, I'am</p>
       <h1>Emeh Glory Chiamaka</h1>
       <h2 class="mb-5">Frontend developer, based in Nigeria</h2>
       <div>
-        <a href="contact.html" class="btn btn-branding" target="_blank">Contact me</a>
+        <a href="contact.html" class="btn btn-branding" target="_blank"
+          >Contact me</a
+        >
       </div>
     </div>
     <p class="text-center m-5">
